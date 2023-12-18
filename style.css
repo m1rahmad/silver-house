@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    display: inline-block;
+    width: 120px;
+    height: 151px;
+    flex-shrink: 0;
+    margin-bottom: 79px;
+    margin-top: 50px;
+}
+
+.header__list {
+    list-style: none;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.header__item {
+    margin-right: 30px;
+}
+
+.header__link {
+    color: #8C8A8A;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.main__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.main__blok1 {
+    grid-column: span 3;
+}
+
+.main__blok2 {
+    grid-column: span 2;
+    padding-top: 50px;
+    padding-bottom: 51px;
+    padding-right: 95px;
+    padding-left: 40px;
+    background: var(--grey, #F0F0F0);
+}
+
+.main__blok3 {
+    background: var(--grey, #F0F0F0);
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 95px;
+    grid-column: span 1;
+}
+
+.main__matn {
+    color: #808080;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: sans-serif;
+    /* 168.75% */
+}
+
+.main__sarlavha {
+    color: #4581B7;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+.main__boglanish {
+    color: #808080;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: sans-serif;
+    /* 168.75% */
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    background: var(--grey, #F0F0F0);
+    height: 150px;
+    flex-shrink: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.footer__name {
+    color: #808080;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: sans-serif;
+}
+
+.footer__number {
+    color: #808080;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: sans-serif;
+}
+
+.footer {
+    margin-top: 30px;
+}
